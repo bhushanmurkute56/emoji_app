@@ -2,12 +2,12 @@ import React, { useState } from 'react';
 import "./Home.css";
 import EmojiButton from '../../EmojiButton/EmojiButton';
 import ColorButton from '../../ColorButton/ColorButton';
-import imgRotate from "./../../assets/rotate-img.png";
 import resetImg from "./../../assets/reset.png";
 import bounceImg from "./../../assets/bounce.png";
 import pulseImg from "./../../assets/pulse.png";
 import shakeImg from "./../../assets/shake.png";
 import flipImg from "./../../assets/flip.png";
+import rotateImg from "./../../assets/rotate-img.png";
 
 function Home() {
   const [emoji, setEmoji] = useState('🌄');
@@ -47,7 +47,7 @@ function Home() {
       </div>
       <div className='controls-container'>
       <div className='angle-container'>
-        <img src="rotate-img.png" alt="rotate-img" className='imgRotate'
+        <img src={rotateImg} alt="rotate-img" className='imgRotate'
         onClick={() => {setAngle(angle + 45)}}/>
         Rotate
       </div>
