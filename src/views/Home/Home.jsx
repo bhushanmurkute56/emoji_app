@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import "./Home.css";
 import EmojiButton from '../../EmojiButton/EmojiButton';
 import ColorButton from '../../ColorButton/ColorButton';
-import imgRotate from "/rotate-img.png";
+import imgRotate from "./../../assets/rotate-img.png";
 import resetImg from "./../../assets/reset.png";
 import bounceImg from "./../../assets/bounce.png";
 import pulseImg from "./../../assets/pulse.png";
