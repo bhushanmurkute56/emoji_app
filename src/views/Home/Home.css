@@ -54,21 +54,20 @@ body {
 .emoji-container {
     height: 200px;
     width: 200px;
-    border: 2px solid #404040;
     display: flex;
     flex-direction: row;
     justify-content: center;
     align-items: center;
     position: relative;
     margin: 0px auto;
-    border-radius: 20px;
+    border-radius: 10px;
     background-color: #fff;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    box-shadow: 0px 0px 5px #4d4dff;
     margin-top: 30px;
 }
 
 .emoji-picker {
-    border: 1px solid black;
+    box-shadow: #4d4dff 0px 0px 4px;
     width: 130px;
     padding: 15px;
     margin: 10px;
@@ -79,10 +78,10 @@ body {
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
-    background-color: skyblue;
+    background-color: lightskyblue;
     align-items: center;
     justify-content: center;
-    border-radius: 30px;
+    border-radius: 10px;
 }
 
 .slider_container {
@@ -104,10 +103,10 @@ body {
     position: fixed;
     top: 240px;
     right: 20px;
-    border: 1px solid black;
+    box-shadow: #4d4dff 0px 0px 4px;
     justify-content: center;
     align-items: center;
-    border-radius: 30px;
+    border-radius: 10px;
     padding: 15px;
     background-color: lightskyblue;
     margin: 10px;
@@ -145,15 +144,15 @@ body {
 }
 
 .controls-container {
-   background-color: aqua;
    height: 200px;
    width: 150px;
    padding: 10px;
-   margin: 0 auto;
+   margin: 0px auto;
    position: relative;
-   border: 1px solid black;
-   border-radius: 20px;
    margin-top: 20px;
+   box-shadow: 0px 0px 2px #4d4dff;
+   border-radius: 10px;
+   margin-top: 50px;
 }
 
 .bounceImg{
@@ -239,7 +238,7 @@ body {
 
 .shake-container{
     position: absolute;
-    bottom: 15px;
+    bottom: 10px;
     right: 30px;
     display: flex;
     flex-direction: column;
@@ -269,7 +268,7 @@ body {
 
 .flip-container {
     position: absolute;
-    bottom: 20px;
+    bottom: 10px;
     left: 30px;
     display: flex;
     flex-direction: column;
@@ -291,7 +290,7 @@ body {
         top: 200px;
         width: 80px;
         height: 500px;
-        padding: 10px;
+        padding: 5px;
         flex-direction: row;
         flex-wrap: wrap;
         justify-content: center;
@@ -306,7 +305,7 @@ body {
         left: 0px;
         width: 60px;
         height: 520px;
-        padding: 8px;
+        padding: 7px;
         flex-direction: row;
         flex-wrap: wrap;
         justify-content: center;
@@ -317,7 +316,7 @@ body {
         right: 0px;
         width: 60px;
         height: 520px;
-        padding: 8px;
+        padding: 7px;
         flex-direction: row;
         flex-wrap: wrap;
         justify-content: center;
