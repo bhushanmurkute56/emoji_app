@@ -5,7 +5,7 @@ function ColorButton({color, setColor}) {
    
     <div className='color-option'
         onClick={() => {setColor(color);}}
-        style ={{backgroundColor : color}}> 
+        style ={{backgroundColor : color}}>
     </div>
   )
 }

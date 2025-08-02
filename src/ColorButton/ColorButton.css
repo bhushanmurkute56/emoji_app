@@ -1,16 +1,19 @@
 .color-option {
-    width: 10px;
-    height: 10px;
-    padding: 10px;
-    margin: 5px;
-    background-color: #f0caca;
+    width: fit-content;
+    padding: 20px;
+    margin: 4px;
+    background-color: #FFF;
     border-radius: 7px;
     cursor: pointer;
     font-size: 20px;
-    border: 1px solid transparent;
+    border: 1px solid black;
 }
 
 .color-option:hover {
     background-color: #FFF;
     border: 1px solid blue;
+}
+
+.emoji_image{
+    border: 5px solid black;
 }
